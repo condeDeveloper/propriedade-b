@@ -1,0 +1,14 @@
+{
+  "name": "propriedade-b",
+  "version": "1.0.0",
+  "description": "Hipergrafos uniformes que nao admitem duas cores",
+  "type": "module",
+  "private": false,
+  "license": "MIT",
+  "main": "src/index.js",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test testes/*.test.js",
+    "medir": "node ferramentas/medidor.js"
+  }
+}
